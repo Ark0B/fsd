@@ -95,7 +95,7 @@ app.post("/students", async (req, res, next) => {
         );
 
         res.status(201).json({
-            message: "Student added successfully definitely absolutely",
+            message: "Student added successfully",
             student: rows[0]
         });
     } catch (err) {
